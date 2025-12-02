@@ -72,7 +72,7 @@ It uses **YOLOv5**, a fast and accurate deep learning model for object detection
 ---
 
 ## 📁 Project Structure
-
+```
 Driver-Drowsiness-Detection-using_yolov5/
 │── MiniProject.ipynb # Main notebook
 │── README.md # Documentation
@@ -90,7 +90,7 @@ Driver-Drowsiness-Detection-using_yolov5/
 │
 └── screenshots/
 └── demo.png # Sample result
-
+```
 
 ---
 
