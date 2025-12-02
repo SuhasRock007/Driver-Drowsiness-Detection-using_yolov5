@@ -145,6 +145,7 @@ Place them in:
 models/best.pt
 ```
 
+---
 ## ▶️ Running the Project
 
 ### Open the Notebook
@@ -165,40 +166,33 @@ cap = cv2.VideoCapture(1)             # external webcam
 cap = cv2.VideoCapture("sample_videos/test.mp4")  # video file
 ```
 
+---
 ## 📊 Results
-```
-Bounding boxes on detected features
 
-Labels such as closed_eyes, yawn, distracted
+- Bounding boxes on detected features
+- Labels such as closed_eyes, yawn, distracted
+- Real-time video output
 
-Real-time video output
-```
+---
 
 ## 🚀 Future Improvements
-```
-Add alert system (buzzer / audio warning)
 
-Convert to mobile app
+- Add alert system (buzzer / audio warning)
+- Convert to mobile app
+- Flask or FastAPI deployment
+- Jetson Nano / Raspberry Pi real-time deployment
+- Train with larger dataset
+- Explore YOLOv8 / transformer-based detectors
 
-Flask or FastAPI deployment
-
-Jetson Nano / Raspberry Pi real-time deployment
-
-Train with larger dataset
-
-Explore YOLOv8 / transformer-based detectors
-```
+---
 
 ## 📚 Credits / References
-```
-This project was implemented for learning purposes with guidance from:
 
-YOLOv5 official repository
+- This project was implemented for learning purposes with guidance from:
+- YOLOv5 official repository
+- YouTube tutorials
+- Roboflow resources
+- OpenCV documentation
+- PyTorch documentation
 
-YouTube tutorials
-
-Roboflow resources
-```
-OpenCV documentation
-
-PyTorch documentation
+---
