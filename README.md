@@ -139,9 +139,8 @@ git clone https://github.com/ultralytics/yolov5
 ```
 
 ### 4️⃣ Add trained weights
+- Place them in:
 ```
-Place them in:
-
 models/best.pt
 ```
 
@@ -159,8 +158,8 @@ MiniProject.ipynb
 ```
 
 ### Run all cells.
+- Webcam / Video Options
 ```
-Webcam / Video Options
 cap = cv2.VideoCapture(0)             # default webcam
 cap = cv2.VideoCapture(1)             # external webcam
 cap = cv2.VideoCapture("sample_videos/test.mp4")  # video file
